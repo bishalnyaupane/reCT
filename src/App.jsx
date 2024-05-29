@@ -1,5 +1,5 @@
 
- import Toolbar from './assets/component/navigation/toolbar'
+ import Toolbar from './components/navigation/toolbar'
 import About from './pages/about'
 import Home from './pages/home'
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'

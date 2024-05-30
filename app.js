@@ -27,8 +27,23 @@
 //     n--
 // } while(n>6)
 // function
-let buttonname = document.getElementById('button')
+// let buttonname = document.getElementById('button')
 
-function clickme() {
-    buttonname.style.transform = 'translateY(555%)'
+// function clickme() {
+//     buttonname.style.transform = 'translateY(555%)'
+// }
+
+function clickme(a, b, c) {
+    console.log(a, b, c)
+
 }
+clickme(5, 6, 7)
+
+
+const datas = () => 10 + 20
+
+const work = (a, b) => {
+    return a + b
+
+}
+work(5, 6)
